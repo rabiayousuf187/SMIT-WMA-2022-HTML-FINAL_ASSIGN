@@ -1,0 +1,376 @@
+body a{
+    text-decoration: none;
+}
+
+
+.banner {
+    background-position: revert;
+    background: linear-gradient(0,#4d2208de,#100954d1),url(../img/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 721px;
+    background-position: bottom;
+    /* text-align: center; */
+}
+
+.navigation {
+    background: #ffc10700;
+    height: 75px;
+}
+
+.bg-change{
+    background-image: none;
+    height: 0px;
+}
+.min-nav{
+   background-color:  #040d48;
+}
+.navigation ul {
+    list-style: none;
+margin-left: 70px;
+    margin-top: -45px;
+    text-align: right;
+    width: 90%;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.navigation ul li a {
+    color: #f1f1f1;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.main-heading {
+    color: rgb(235, 235, 235);
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    /* background: blue; */
+}
+
+.main-heading h1{
+    font-size: 4em;
+    margin: 0;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main-heading h3{
+    font-size: 1.3em;
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    color: #ebebeb !important;
+    height: 480px;
+    text-align: center;
+    background: #040d48;
+    padding-top: 20px;
+}
+
+section.content {
+    /* height: 800px; */
+}
+
+.features{
+    padding-top: 120px;;
+    padding-bottom: 120px;;
+}
+
+.features h3 {
+    text-decoration: underline;
+    color: #64625e;
+}
+
+.content-card {
+    height: 358px;
+    /* background-color: black; */
+    border: 2px solid;
+    text-align: center;
+    border-radius: 3px;
+    border-color: #165f96;
+}
+.content-card:hover {
+    box-shadow: -5px 20px 13px 0px #0f122436;
+}
+.features .row{
+    padding-top: 100px;
+    padding-bottom: 100px
+}
+
+
+.content-card img {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+.content-card p{
+      font-size: 1.5em;
+      font-weight: 600;
+    color: #2b19a5;
+}
+
+.signup{
+    height: 800px;
+    padding-top: 150px;
+    margin-bottom: 55px;
+    /* background: linear-gradient(0,#4d2208de,#100954d1),url(https://img.freepik.com/premium-photo/modern-building-office-blue-sky-background_35761-198.jpg); */
+    /* background: url(https://wallpapercave.com/wp/wp2554584.jpg); */
+    /* background: linear-gradient(0,#9ba2c7de,#1d07ff42),url(https://wallpapercave.com/wp/wp2554584.jpg); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+.signup-button {
+    width: 302px;
+    height: 54px;
+    text-align: center;
+    margin-top: 165px
+}
+.signup-button button {
+    height: 50px;
+    width: 450px;
+    margin-top: 10px;
+    background: #143445;
+    color: white;
+    border-radius: 5px;
+}
+
+.signip-form {
+    width: 420px;
+    height: 640px;
+    border: 1px solid black;
+    /* display: inline-block; */
+    position: absolute;
+    top: 151px;
+    right: 150px;
+    text-align: center;
+    box-shadow: -5px 20px 13px 0px #0f122436;
+    border-radius: 13px;
+}
+
+.feild {
+    width: 80px;
+    display: inline;
+}
+
+.feild input, .feild textarea {
+    width: 328px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-color: #040d4826;
+}
+
+.feild-radio {
+    margin-top: 17px;
+    text-align: left;
+    margin-bottom: 8px;
+    margin-left: 45px;
+}
+
+.contact {
+    width: 500px;
+    height: 500px;
+    /* border: 1px solid black; */
+    /* display: inline-block; */
+    right: 440px;
+    top: 215px;
+    /* right: 150px; */
+    text-align: center;
+    /* box-shadow: -5px 20px 13px 0px #0f122436; */
+    /* border-radius: 13px; */
+}
+input#policy {
+    height: 12px;
+    width: 12px;
+}
+.contact-img{
+    position: absolute;
+    right: 440px;
+    top: -34px;
+}
+
+.details-map {
+    /* position: absolute;
+    left: 2px;
+    bottom: -1726px; */
+}
+.foot-logo {
+    text-align: left;
+    padding-top: 5px;
+    /* padding-bottom: 27px; */
+}
+.foot-logo:hover{
+    border-bottom: 3px solid silver;
+    width: 140px;
+}
+.foot-list h3 {
+    margin-left: 5px;
+    text-align: left;
+}
+.foot-list {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.foot-list h3:hover {
+    border-bottom: 1px solid;
+    /* width: 124px; */
+}   
+.foot-list ul a{
+    color: #d4d4d4;
+
+}
+.foot-list input{
+    border: 3px solid silver;
+    border-radius: 16px;
+    height: 35px;
+
+}
+.foot-list button#submit {
+    border-radius: 22px;
+}
+.foot-list ul{
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.top {
+    width: 70px;
+    height: 70px;
+    background: orange;
+    border-radius: 37px;
+    position: relative;
+    top: -83px;
+    left: 1415px;
+}
+i.fa-solid.fa-arrow-up {
+    padding-top: 17px;
+    font-size: 35px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 37px;
+}
+.project-card img {
+    width: 315px;
+    height: 330px;
+}
+.project-card figcaption{
+    display: none;
+}
+.project-card:hover img{
+    box-shadow: -7px 12px 10px 0px #0f122436;
+    opacity: 0.7;
+}
+
+.project-card:hover figcaption{
+    border: 1px solid black;
+    border-radius: 9px;
+    text-align: center;
+    display: block;
+    width: 180px;
+    height: 55px;
+    background: #040d48;
+    color: #ffffff;
+    position: relative;
+    left: 75px;
+    bottom: 23px;
+    animation-name: proj-capt;
+    animation-duration: 8s;
+    
+}
+
+@keyframes proj-capt {
+    0%   {bottom: 23px;
+        left: 75px;}
+    25%   {bottom: 185px;
+        left: 75px;}
+    50%   {bottom: 185px;
+            left: 75px;}
+    75%   {bottom: 185px;
+        left: 75px;}
+    100%   {bottom: 185px;
+        left: 75px;}
+}
+
+.contact-detail {
+    height: 290px;
+    padding-left: 185px;
+    padding-top: 24px;
+    margin-bottom: 0px;
+    background: linear-gradient(0,#030a30e0,#393184ed),url(https://png.pngtree.com/background/20210710/original/pngtree-green-nature-small-fresh-poster-banner-background-picture-image_1016363.jpg);
+    background-position: center;
+    background-repeat: repeat;
+}
+table , table a {
+    color: white;
+    margin-top: 92px;
+    font-size: 16px;
+}
+
+.btn.btn-info {
+    border-radius: 1px;
+    width: 135px;
+    color: #f4f4f4;
+    background: #0093ff;
+    margin-top: 0px;
+}
+
+.details-map h5{
+    color: red;
+}
+.details-map h3{
+    font-weight: 700;
+}
+/* .details-map li{
+    list-style: square inside url("https://www.pngkit.com/png/detail/132-1328790_blue-checkmark-png-check-mark-symbol-blue.png");
+} */
+
+.details-map {
+    padding-top: 55px;
+}
+.video-details img{
+    width: 800px;
+    height: 442px;
+}
+
+section.fluid-container.content.who-we {
+    height: 330px;
+    background: linear-gradient(0,#f4f5f72b,#06022e),url(https://www.pbc.org.pk/wp-content/uploads/enhancing-the-competitiveness-of-pakistans-services-exports-other-business-services-1440x500.jpg);
+    background-attachment: fixed;
+    margin-bottom: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.who-we-heading{
+    margin-top: 155px;
+    text-align: center;
+    color: #a81414;
+    font-weight: 700;
+}
+.who-we-heading h2{
+    font-size: 60px;
+}
